@@ -1,0 +1,107 @@
+body{
+    background-image: url("http://1.bp.blogspot.com/-iQm8pAH9at0/TrFrVxn10cI/AAAAAAAAAb4/bSS8stEmDKo/s1600/templo-de-debod-cc-freakland.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    text-shadow: 2px 2px 1px black;
+    font-family: "palatino linotype","Book Antiqua", Palatino, serif;
+    height: 800px;
+}
+#weatherContainer {
+    background-color: rgba(0,0,0,0.25);
+    box-shadow:  1px 1px 5px black;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    visibility: hidden;
+      
+    }
+#weatherContainer h1{
+    margin: 5px;
+    font-size: 42px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+}
+#searchContainer {
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    
+}
+#searchContainer input{
+    width: 200px;
+}
+#searchContainer button{
+background-color: rgba(1,159,198);
+width: 75px;
+
+}
+.searchControl{
+    box-shadow: 2px 2px 5px black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+#weatherMain{
+    display: block;
+    margin-bottom: 20px;
+
+}
+#weatherMain div{
+    display: inline-block;
+}
+#weatherDescriptionHeader{
+    font-size: 28px;
+    vertical-align: 50%;
+}
+#temperature{
+    font-size: 30px;
+    vertical-align: 30%;
+
+}
+.bottomdetails{
+    display: block;
+    font-size: 24px;
+    text-align: right;
+}
+hr{
+    margin-bottom: 20px;
+}
+
+#contenedor5{
+    
+    top: 100px;
+   right: 50px;
+    background-color: rgba(0,0,0,0.25);
+    box-shadow:  1px 1px 5px black;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+   visibility: visible; 
+}
+
+#cerrar a{
+   box-shadow: 2px 2px 5px black;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: black;
+}
+#inicio{
+     background-color: rgba(0,0,0,0.25);
+    box-shadow:  1px 1px 5px black;
+    padding: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin-left: 600px;
+    top: 200px;
+    width: 300px;
+}
+
+nav a,h2,hr{
+    color: white;
+}
+label{
+    color: white;
+}

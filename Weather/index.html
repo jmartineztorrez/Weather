@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="jq/jquery-3.4.1.js"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="searchContainer">
+        <input type="text" class="searchControl" id="searchInput" placeholder="Ciudad">
+        <button class="searchControl" id="searchBtn">Buscar</button>
+        <a href="php/cerrar.php">Cerrar sesión</a>
+    </div>
+    <div id="weatherContainer">
+        <div id="weatherDescription">
+            <h1 id="cityHeader"></h1>
+            <div id="weatherMain">
+                <div id="temperature"></div>
+                <div id="weatherDescriptionHeader"></div>
+                <div><img id="documentIconImg" src="" alt=""></div>
+            </div>
+
+            <hr>
+            <div id="windSpeed" class="bottomdetails">
+
+            </div>
+            <div id="humidity" class="bottomdetails">
+
+            </div>
+            <div id="rain" class="bottomdetails"></div>
+            <div id="snow" class="bottomdetails"></div>
+            <div id="temp_max" class="bottomdetails"></div>
+            <div id="temp_min" class="bottomdetails"></div>
+
+        </div>
+    </div>
+
+<!-- five Forescar-->
+<div id="contenedor5">
+<div id="header">
+    <h1 class="weather_forescat_list">Pronostico del Tiempo</h1> </div>
+    <div id="dia1" class="dia_1_lista">
+        <div id="diaMax1" class="list_item bottomdetails">
+            
+        </div>
+        <div id="diaMin1" class="list_item bottomdetails"></div>
+        <hr>
+    </div>
+
+    <div id="dia2" class="dia_1_lista">
+        <div id="diaMax2" class="list_item bottomdetails"></div>
+        <div id="diaMin2" class="list_item bottomdetails"></div>
+        <hr>
+    </div>
+    <div id="dia3" class="dia_1_lista">
+        <div id="diaMax3" class="list_item bottomdetails"></div>
+        <div id="diaMin3" class="list_item bottomdetails"></div>
+        <hr>
+    </div>
+    <div id="dia4" class="dia_1_lista">
+        <div id="diaMax4" class="list_item bottomdetails"></div>
+        <div id="diaMin4" class="list_item bottomdetails"></div>
+        <hr>
+    </div>
+    <div id="dia5" class="dia_1_lista">
+        
+        <div id="diaMax5" class="list_item bottomdetails"></div>
+        <div id="diaMin5" class="list_item bottomdetails"></div>
+    </div>
+</div>
+    <script src="js/script.js"></script>
+  <script src="js/weather5dias.js"></script>
+</body>
+
+</html>
